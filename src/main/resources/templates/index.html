@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon icon -->
+  <link rel="shortcut icon" type="image/png" th:href="@{images/favicon.png}" />
+<!-- <title layout:title-pattern="$CONTENT_TITLE -$DECORATOR_TITLE">KDSB</title> -->
+</head>
+<body>
+
+<div layout:fragment="content">
+ <!-- Banner section start -->
+<section class="banner v1" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 m-auto">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner section end -->
+
+  <!-- App section start -->
+  <section class="app"​ id="download-app">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/mobile/mobile.png" alt="" >
+          </div>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>K-easy Mobile App</h2>
+	            <p>1. K-easy is the first mobile banking app of KB Daehan Specialized Bank (KDSB)!! </br>
+	               2. K-easy is wearing a completely new concept of finance service platform in Cambodia.
+	                  You can freely upload your cars and houses(or land), and also you can find what you want in this "K-easy" app.</p>
+	             </br>
+	            <p> Download link for Google Play and App Store.</p>
+	            <a href="https://play.google.com/store/apps/details?id=kh.com.kdsb"
+	              class="btn btn-default icon-left"><span class="bh"></span> <span><i class="fab fa-android"></i> Google
+	                play</span></a>
+	            <a href="https://apps.apple.com/us/app/k-easy-kdsb/id1455290651" class="btn btn-default icon-left"><span
+	                class="bh"></span> <span><i class="fab fa-apple"></i> App store</span></a>
+	                
+	          <!--  <div class="row app-link">
+				<div class="col-6 text-left">
+					<a href="#" target="_blank" rel="nofollow">
+						<img  class="img-fluid icon-qr" data-cfsrc="#" src="images/QR.png">
+					</a>
+				</div>
+				<div class="col-6 text-left">
+					<div class="mt-2">
+						<a href="https://apps.apple.com/us/app/k-easy-kdsb/id1455290651" target="_blank" rel="nofollow" >
+							<img  class="img-fluid icon-app" data-cfsrc="#" src="https://www.khmer24.com/khmer24-crm-33/template/img/appstore.png">
+						</a>
+					</div>
+					<div class="mt-3">
+						<a href="https://play.google.com/store/apps/details?id=kh.com.kdsb" target="_blank" rel="nofollow">
+							<img class="img-fluid icon-app" data-cfsrc="#" src="https://www.khmer24.com/khmer24-crm-33/template/img/playstore.png">
+						</a>
+					</div>
+				</div>
+				</div> -->
+	          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- App section end -->
+  <!-- About Us -->
+  <section class="about-us bg-offwhite" id="about">	
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>About KB Daehan Specialized Bank Plc.</h2>
+      	    	<p>KB Daehan Specialized Bank Plc (KDSB) is a member of KB Financial Group,
+      	    	 the largest financial group in South Korea. KDSB's slogan is to be Your New Highway in Finance. 
+      	    	 We are dedicated to providing the new and flexible service for car and housing loan..</p>
+	          </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/about/about.svg" alt="" >
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>	
+  <!-- About Us End -->
+  <!-- Banking Products section start -->
+  <section class="our-products speciality " id="ourproduct">
+    <div class="container">
+      <div class="row align-items-md-center">
+        <div class="col-lg-8 col-md-10 m-auto">
+          <div class="sec-heading">
+            <span class="tagline">Our Products</span>
+            <h2 class="sec-title">Our Banking Products</h2>
+            <p class="sec-subtitle">Sub Title</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row product-scroll">
+            <div class="col-md-3">
+                <div class="iconBox boxed-shadow text-center">
+                  <a href="#car-loan"><img src="images/products/1.png" alt=""></a>
+                  <h5>Car Loan</h5>
+                 <p>It is a type of loan service to meet the need of your daily, moreover help to satisfy your dream to get all kinds of brand</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox boxed-shadow text-center">
+                  <a href="#corporate-loan"><img src="images/products/2.png" alt=""></a>
+                  <h5>Corperate Loan</h5>
+                  <p>It is a type of loan service to meet the need of your daily, moreover help to satisfy your dream to get all kinds of brand</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox boxed-shadow text-center">
+                  <a href="#housign-loan"><img src="images/products/4.png" alt=""></a>
+                  <h5>Housing Loan</h5>
+                  <p>General/ Home loan is the lending service which serves to person, corporate aim to start up and extend their existing </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox boxed-shadow text-center">
+                  <a href="#credit-card"><img src="images/products/3.png" alt=""></a>
+                  <h5>Credit Card</h5>
+                  <p>Credit/Debit Card (coming soon)</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <!-- Banking Product section end -->
+
+  <!-- Car loan -->
+  <section class="overview bg-offwhite" id="car-loan">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/products/car.svg" alt="" >
+          </div>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>Car Loan</h2>
+	           
+	            <h4>Product Features</h4>
+	            <p>1. Loan amount: Up to USD 50,000 / Up to KHR 210,000,000 </br>
+	               2. Interest rate: Reasonable rate.</br>
+	               3. Loan term: Up to 96 months</br>
+	               4. Loan term: Up to 96 months</br>
+	               
+	               </p>
+	            
+	            <h4>Requirements</h4>
+	            <p>1. Be a majority aged 18 to 65 years old </br>
+	               2. Permanent resident.</br>
+	               3. Have a good record and be reliable</br>
+	               4. Have a legal business and regular income</br>
+	               4. Have enough capacity to repay the loan and be responsible</br>
+	               </p>
+	          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- Car Loan End -->
+  <!-- Corporate Loan -->
+  <section class="overview " id="corporate-loan">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>Corporate Loan</h2>
+	            <p>1. K-easy is the first mobile banking app of KB Daehan Specialized Bank (KDSB)!! </br>
+	               2. K-easy is wearing a completely new concept of finance service platform in Cambodia.
+	                  You can freely upload your cars and houses(or land), and also you can find what you want in this "K-easy" app.</p>
+	             </br>
+	         
+	          </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/products/2.png" alt="" >
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <!-- Corporate Loan -->
+  <!-- housing Loan -->
+  <section class="overview bg-offwhite" id="housign-loan">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/products/house.svg" alt="" >
+          </div>
+        </div>
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>hoursing Loan</h2>
+	            <h4>Product Features</h4>
+	            <p>1. Loan amount: Up to USD 50,000 / Up to KHR 210,000,000 </br>
+	               2. Interest rate: Reasonable rate.</br>
+	               3. Loan term: Up to 96 months</br>
+	               4. Loan term: Up to 96 months</br>
+	               
+	               </p>
+	            
+	            <h4>Requirements</h4>
+	            <p>1. Be a majority aged 18 to 65 years old </br>
+	               2. Permanent resident.</br>
+	               3. Have a good record and be reliable</br>
+	               4. Have a legal business and regular income</br>
+	               4. Have enough capacity to repay the loan and be responsible</br>
+	               </p>
+	         
+	          </div>
+             </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- housing Loan End -->
+  <!-- Credit card -->
+  <section class="overview " id="credit-card">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 offset-md-1">
+          <div class="row">
+            <div class="col-sm-12">
+	         <div class="content-box " >
+	            <h2>Credit Card</h2>
+	            <p>1. K-easy is the first mobile banking app of KB Daehan Specialized Bank (KDSB)!! </br>
+	               2. K-easy is wearing a completely new concept of finance service platform in Cambodia.
+	                  You can freely upload your cars and houses(or land), and also you can find what you want in this "K-easy" app.</p>
+	             </br>
+	         
+	          </div>
+             </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+          <div class="content-box">
+            <img src="images/products/card.svg" alt="" >
+          </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <!-- Credit card end -->
+  
+  
+  <!-- Contact Us -->
+  <section class="contact bg-offwhite " id="contact">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7 nopadd-rth">
+              <div class="contact-from-wrap">
+                <div class="sec-heading">
+                  <h2 class="sec-title">Get In Touch</h2>
+                  <p class="sec-subtitle">Any Suggestions and Request</p>
+                </div>
+                <iframe name="form-iframe" style="visibility: hidden;position:absolute;height:0"></iframe>
+                <form th:action="@{/sendEmail}"  th:object="${contact}" class="contact-form clearfix" method="POST">
+                  <input type="hidden" id="input-response" name="response">
+                  <div class="form-group row align-items-end">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <label>Your name</label>
+                      <input type="text" class="form-control" name="firstname" id="firstname" th:field="*{firstname}" required="required" placeholder="First name">
+                    </div>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" name="lastname" id="lastname" th:field="*{lastname}" required="required" placeholder="Last name">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" name="email" id="email" th:field="*{email}" required="required" placeholder="Your email">
+                  </div>
+                  <div class="form-group">
+                    <label>Write message</label>
+                    <textarea class="form-control" name="content" id="content" th:field="*{message}"  required="required" placeholder="Your messege"></textarea>
+                  </div>
+                  <button type="submit" id="btn-sendcontact" class="btn btn-filled btn-round"><span class="bh"></span> <span>Send</span></button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-5 nopadd-ltf">
+              <div class="contact-info-wrap">
+                <address>
+                  <i class="fas fa-envelope"></i>
+                  <span>Email Address</span>
+                  <a href="mailto:info@kdsb.com.kh">info@kdsb.com.kh</a>
+                </address>
+                <address>
+                  <i class="fas fa-phone-alt"></i>
+                  <span>Phone Number</span>
+                  <a href="tel:+85523722563">+855 23 991 555</a>
+                </address>
+                <address>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Our Head Office</span>
+                  Building No. 1, 7th, 21st and 22nd Floor, Street No. 360, Phum Phum 8, Sangkat Boeng Keng Kang Ti Muoy, Boeng Keng Kang, Phnom Penh
+                </address>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="contact-from-wrap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.0273234783708!2d104.92741209793847!3d11.54892735078718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513eaabe0f39%3A0xf914be3f7e345659!2sKB+Daehan+Specialized+Bank+Plc.!5e0!3m2!1sen!2skh!4v1547452137385" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a id="scrollUp"><i class="fa fa-arrow-up"></i></a>
+    </section>
+  <!-- Contact Us End -->
+
+</div>
+
+</body>
+</html>

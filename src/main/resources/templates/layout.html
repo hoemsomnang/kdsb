@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon icon -->
+  <link rel="shortcut icon" type="image/png" th:href="@{images/favicon.png}" />
+  
+  <!-- Link Style -->
+  <style th:replace="shared/_style"></style>
+  <title layout:title-pattern="$CONTENT_TITLE -$LAYOUT_TITLE">KDSB | Home Page</title>
+
+</head>
+<body>
+
+<div th:replace="shared/_header"></div>
+
+<div layout:fragment="content"></div>
+
+<div th:replace="shared/_footer"></div>
+
+<div th:replace="shared/_script"></div>
+</body>
+</html>
